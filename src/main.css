@@ -14,3 +14,7 @@
     object-fit: cover;
     height: 65vh;
 }
+
+.git-link {
+    color: darkslategray;
+}

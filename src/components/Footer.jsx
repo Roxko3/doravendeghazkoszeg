@@ -6,7 +6,7 @@ function Footer()
         <>
         <footer className="py-3 bg-success">
             <Container className="text-center">
-                <span>NTAK regisztrációs szám: MA19008454 | © Copyright {new Date().getFullYear()} | Minden jog fenntartva | <a href="https://github.com/Roxko3" target="_blank">Github</a></span>
+                <span>NTAK regisztrációs szám: MA19008454 | © Copyright {new Date().getFullYear()} | <a className="git-link" href="https://github.com/Roxko3/doravendeghazkoszeg" target="_blank">Github</a></span>
             </Container>
         </footer>
         </>
