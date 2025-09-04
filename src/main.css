@@ -1,0 +1,16 @@
+.gallery-image {
+    width: 25vh;
+    height: 25vh;
+    margin: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gallery-image:hover {
+    filter: brightness(70%);
+}
+
+.carousel-image {
+    object-fit: cover;
+    height: 65vh;
+}
