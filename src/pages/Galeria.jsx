@@ -1,4 +1,4 @@
-import { Button, Col, Container, Image, Modal, Row, Stack } from "react-bootstrap"
+import { Button, CloseButton, Col, Container, Image, Modal, Row, Stack } from "react-bootstrap"
 import CustomCarousel from "../components/CustomCarousel"
 import { useEffect, useState } from "react"
 import { CaretLeftFill, CaretRightFill } from "react-bootstrap-icons";
@@ -68,7 +68,9 @@ function Galeria()
                 </Row>
             </Container>
             <Modal show={show} onHide={handleClose} centered size="lg" contentClassName="bg-transparent border-0 p-0">
-                <Modal.Header closeButton className="border-0 p-0"/>
+                <Modal.Header className="border-0 p-0">
+                    <CloseButton onClick={handleClose} className="bg-white"/>
+                </Modal.Header>
                 <Modal.Body className="p-0">
                     <Container>
                         <Row>
