@@ -1,6 +1,8 @@
-import { Col, Container, Image, Row } from "react-bootstrap"
+import { Card, Col, Container, Image, Row, Stack } from "react-bootstrap"
 import CustomCarousel from "./components/CustomCarousel"
 import { useEffect } from "react"
+import { StarFill } from "react-bootstrap-icons"
+import ErtekelesCard from "./components/ErtekelesCard"
 
 
 function App() {
@@ -34,8 +36,31 @@ function App() {
             megkíméljük egy újabb kiadástól egy ingyenes parkolóbérletet biztosítunk az ittléte alatt.
             Várjuk sok szeretettel a Dóra Vendégházban Kőszegen!</p>
         </Col>
-        <Col xs={12} lg={6}>
+        <Col xs={12} lg={6} className="d-flex align-items-center justify-content-center">
           <Image src="/images/3096355.jpg" fluid/>
+        </Col>
+      </Row>
+      <Row className="mt-5">
+        <Col xs={12} lg={3} className="d-flex flex-column align-items-center justify-content-center">
+          <div>
+            <Stack direction="horizontal" gap={4}>
+              <StarFill size={50} color="gold"/>
+              <StarFill size={50} color="gold"/>
+              <StarFill size={50} color="gold"/>
+              <StarFill size={50} color="gold"/>
+              <StarFill size={50} color="gold"/>
+            </Stack>
+            <Stack direction="horizontal" gap={3} className="mx-4 mt-4">
+              <h3>9.9</h3>
+              <h4>Kiváló</h4>
+              <h6>199 értékelés alapján</h6>
+            </Stack>
+          </div>
+        </Col>
+        <Col xs={12} lg={9} className="d-flex flex-wrap justify-content-center gap-3">
+          <ErtekelesCard title="Középkorú pár" text="A város szívében,gyönyörü helyen,egy kényelmes,családias,minden igényt kielégítő,barátságos ,tiszta otthon." footer="2024. december"/>
+          <ErtekelesCard title="Egyéni utazó" text="Kedves vendéglátok, tiszta, kényelmes jól berendezett szállás." footer="2025. június"/>
+          <ErtekelesCard title="Baráti társaság" text="Csak pozitív tapasztalatunk volt. Nagyon jó helyen, jól felszerelt, kényelmes apartman., rendkívül figyelmes, készséges szállásadóval. Mindenkinek ajánlom!" footer="2025. április"/>
         </Col>
       </Row>
     </Container>
