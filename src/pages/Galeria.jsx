@@ -47,7 +47,7 @@ function Galeria()
 
     return(
         <>
-            <Container >
+            <Container>
                 <Row>
                     <Col className="text-center my-4">
                         <h1>Galéria</h1>

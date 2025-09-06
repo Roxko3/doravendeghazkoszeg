@@ -18,7 +18,7 @@ function Szolgaltatas()
                 </Col>
             </Row>
             <Row>
-                <Col className="d-flex flex-wrap gap-3 justify-content-center">
+                <Col className="d-flex flex-wrap gap-3 justify-content-center mb-3">
                     <SzolgaltatasCard icon={Wifi} text="Ingyenes Wifi"/>
                     <SzolgaltatasCard icon={Snow} text="Légkondícionálás"/>
                     <SzolgaltatasCard icon={Tv} text="Síkképernyős TV"/>
