@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import { Col, Container, Row } from "react-bootstrap"
-import { Envelope, Facebook, GeoAlt, Globe, Telephone } from "react-bootstrap-icons"
+import { FaFacebook } from "react-icons/fa"
+import { FiGlobe, FiMail, FiMapPin, FiPhone } from "react-icons/fi"
 
 function Kapcsolat()
 {
@@ -19,25 +20,25 @@ function Kapcsolat()
             </Row>
             <Row>
                 <Col xs={12} md={4} lg={6}>
-                    <h4><GeoAlt/> Cím</h4>
+                    <h4><FiMapPin/> Cím</h4>
                     <a href="https://maps.app.goo.gl/Hhz5aUwVT73mVExc7" target="_blank">9730 Kőszeg, Várkör 67</a>
                     <br/>
                     <br/>                    
-                    <h4><Telephone/> Telefon</h4>
+                    <h4><FiPhone/> Telefon</h4>
                     <a href="tel:+36 30 216 0846">+36 30 216 0846</a>
                     <br/>
                     <a href="tel:+36 30 396 8249">+36 30 396 8249</a> 
                     <br/>
                     <br/>
-                    <h4><Envelope/> Email</h4>
+                    <h4><FiMail/> Email</h4>
                     <a href="mailto:dora.peter@freemail.hu">dora.peter@freemail.hu</a>
                     <br/>
                     <br/>
-                    <h4><Globe/> Web</h4>
+                    <h4><FiGlobe/> Web</h4>
                     <a href="http://www.doravendeghazkoszeg.hu">www.doravendeghazkoszeg.hu</a>
                     <br/>
                     <br/>
-                    <h4><Facebook/> Facebook</h4>
+                    <h4><FaFacebook/> Facebook</h4>
                     <a href="https://www.facebook.com/koszeg.doravendeghaz/" target="_blank">Dóra Vendégház Kőszeg</a>
                 </Col>
                 <Col xs={12} md={8} lg={6}>

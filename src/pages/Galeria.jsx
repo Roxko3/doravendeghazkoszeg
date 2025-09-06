@@ -1,7 +1,7 @@
 import { Button, CloseButton, Col, Container, Image, Modal, Row, Stack } from "react-bootstrap"
 import CustomCarousel from "../components/CustomCarousel"
 import { useEffect, useState } from "react"
-import { CaretLeftFill, CaretRightFill } from "react-bootstrap-icons";
+import { BiSolidLeftArrow, BiSolidRightArrow } from "react-icons/bi";
 
 function Galeria()
 {
@@ -75,13 +75,13 @@ function Galeria()
                     <Container>
                         <Row>
                             <Col xs={1} className="d-flex align-items-center justify-content-center p-0">
-                                <Button variant="light" onClick={prev}><CaretLeftFill/></Button>
+                                <Button variant="light" onClick={prev}><BiSolidLeftArrow/></Button>
                             </Col>
                             <Col xs={10} className="p-0">
                                 <Image src={images[index]} alt={`Kép ${index}`} fluid/>
                             </Col>
                             <Col xs={1} className="d-flex align-items-center justify-content-center p-0">
-                                <Button variant="light" onClick={next}><CaretRightFill/></Button>
+                                <Button variant="light" onClick={next}><BiSolidRightArrow/></Button>
                             </Col>
                         </Row>
                     </Container>

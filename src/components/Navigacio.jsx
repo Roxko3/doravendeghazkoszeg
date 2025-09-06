@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
-import { Facebook } from "react-bootstrap-icons"
+import { FaFacebook } from "react-icons/fa"
 import { NavLink } from "react-router"
 
 function Navigacio()
@@ -18,7 +18,7 @@ function Navigacio()
             </Nav>
             <Nav className="ms-auto">
                 <Nav.Link href="https://www.facebook.com/koszeg.doravendeghaz/" target="_blank" rel="noopener noreferrer">
-                    <Facebook />
+                    <FaFacebook />
                 </Nav.Link>
             </Nav>
             </Navbar.Collapse>
