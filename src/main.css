@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
 .gallery-image {
     width: 25vh;
     height: 25vh;
