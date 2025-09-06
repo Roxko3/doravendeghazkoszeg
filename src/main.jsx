@@ -8,6 +8,7 @@ import Galeria from './pages/Galeria.jsx'
 import Navigacio from './components/Navigacio.jsx'
 import Kapcsolat from './pages/Kapcsolat.jsx'
 import Footer from './components/Footer.jsx'
+import Szolgaltatas from './pages/Szolgaltatas.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} />
         <Route path="/galeria" element={<Galeria />} />
         <Route path="/kapcsolat" element={<Kapcsolat />} />
+        <Route path="/szolgaltatasaink" element={<Szolgaltatas />} />
       </Routes>
       </main>
       <Footer />

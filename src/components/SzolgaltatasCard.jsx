@@ -1,0 +1,16 @@
+import { Card } from "react-bootstrap"
+
+function SzolgaltatasCard({icon: Icon, text})
+{
+
+    return(
+        <Card bg="success" border="dark" className="text-center" style={{ width: '12rem' }}>
+            <Card.Body>
+                <Card.Title>{Icon && <Icon size={50} />}</Card.Title>
+                <Card.Text>{text}</Card.Text>
+            </Card.Body>
+        </Card>
+    )
+}
+
+export default SzolgaltatasCard

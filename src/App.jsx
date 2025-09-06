@@ -25,10 +25,14 @@ function App() {
       <Row>
         <Col xs={12} lg={6}>
           <h1>Vendégház Kőszeg belvárosában</h1>
-          <p>Kőszeg belvárosában 1767-ben épült műemlék épületben a földszinten lett kialakítva egy 50m² -es apartman, mely két egybenyíló boltíves szobából, felszerelt konyhából 
-            ( kávé főző, mikró,hűtő vízforraló,elektromos tűzhely stb. ) fürdőből, kis étkezőből áll. Az apartmanunk egyszerre 4-fő számára biztosít kényelmes pihenést. 
-            Januártól - decemberig várjuk kedves vendégeinket. Télen központi fűtés gondoskodik az Ön kényelméről, amit Ön szabályozhat felár nélkül. Nálunk nincsenek közös helységek, 
-            nem kell alkalmazkodni másokhoz.  Az érkezést-távozást rugalmasan kezeljük, ahogy a foglalások lehetővé teszik. Autóval érkező vendégeinknek ingyenes parkolóbérletet biztosítunk.</p>
+          <p>Kőszeg belvárosában 1767-ben épült műemlék épületben a földszinten lett kialakítva egy 50 m<sup>2</sup>-es apartman, mely két egybenyíló 
+            boltíves szobából, jól felszerelt konyhából / automata kávé főző, mikró, hűtő vízforraló kenyérpirító, elektromos tűzhely 
+            stb / kicsi fürdőből, kis étkezőből áll. Az apartmanunk egyszerre 4 fő számára biztosít kényelmes pihenést, Januártól - decemberig 
+            várjuk kedves vendégeinket, télen központi fűtés gondoskodik az Ön kényelméről (nyáron a vastag falak és egy klima biztosítja 
+            kellemes hőmérsékletet ) . Az Apartmanhoz tartozik egy kis zárt udvar fedett kiülővel . Az érkezést-távozást rugalmasan kezeljük 
+            ahogy a foglalások lehetővé teszik.Mivel az apartman közvetlenül a belvárosban szívében található , a parkolás fizetős lenne de mi 
+            megkíméljük egy újabb kiadástól egy ingyenes parkolóbérletet biztosítunk az ittléte alatt.
+            Várjuk sok szeretettel a Dóra Vendégházban Kőszegen!</p>
         </Col>
         <Col xs={12} lg={6}>
           <Image src="/images/3096355.jpg" fluid/>

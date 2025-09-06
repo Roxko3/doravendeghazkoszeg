@@ -12,6 +12,7 @@ function Navigacio()
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
+                <Nav.Link as={NavLink} to="/szolgaltatasaink">Szolgáltatásaink</Nav.Link>
                 <Nav.Link as={NavLink} to="/galeria">Galéria</Nav.Link>
                 <Nav.Link as={NavLink} to="/kapcsolat">Kapcsolat</Nav.Link>
             </Nav>
