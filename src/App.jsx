@@ -7,12 +7,16 @@ import { FaStar } from "react-icons/fa"
 
 function App() {
 
+
   const imageModules = import.meta.glob("./assets/main_carousel/*", {eager: true, import: "default"})
   const images = Object.values(imageModules)
 
-    useEffect(() => {
-        document.title = "Dóra Vendégház Kőszeg"
-    }, [])
+  const ertekelesModules = import.meta.glob("./assets/ertekelesek.json", {eager: true, import: "default"})
+  const ertekelesek = Object.values(ertekelesModules).flat().sort(() => Math.random() - 0.5).slice(0, 3);
+
+  useEffect(() => {
+    document.title = "Dóra Vendégház Kőszeg"
+  }, [])
 
   return (
     <>
@@ -58,9 +62,9 @@ function App() {
           </div>
         </Col>
         <Col xs={12} lg={9} className="d-flex flex-wrap justify-content-center gap-3">
-          <ErtekelesCard title="Középkorú pár" text="A város szívében, gyönyörü helyen, egy kényelmes, családias, minden igényt kielégítő, barátságos, tiszta otthon." footer="2024. december"/>
-          <ErtekelesCard title="Egyéni utazó" text="Kedves vendéglátok, tiszta, kényelmes jól berendezett szállás." footer="2025. június"/>
-          <ErtekelesCard title="Baráti társaság" text="Csak pozitív tapasztalatunk volt. Nagyon jó helyen, jól felszerelt, kényelmes apartman., rendkívül figyelmes, készséges szállásadóval. Mindenkinek ajánlom!" footer="2025. április"/>
+          {ertekelesek.map((item, idx) => (          
+            <ErtekelesCard key={idx} title={item.nev} text={item.szoveg} footer={item.datum}/>
+          ))}
         </Col>
       </Row>
     </Container>
