@@ -41,7 +41,7 @@ function App() {
             Várjuk sok szeretettel a Dóra Vendégházban Kőszegen!</p>
         </Col>
         <Col xs={12} lg={6} className="d-flex align-items-center justify-content-center">
-          <Image src="/images/3096355.jpg" fluid/>
+          <Image src="/images/3096355.jpg" fluid rounded/>
         </Col>
       </Row>
       <Row className="mt-5">
@@ -57,7 +57,7 @@ function App() {
             <Stack direction="horizontal" gap={3} className="mx-4 mt-4">
               <h3>9.9</h3>
               <h4>Kiváló</h4>
-              <h6>199 értékelés alapján</h6>
+              <h6>199 értékelés <a href="https://szallas.hu/dora-vendeghaz-koszeg" target="_blank">alapján</a></h6>
             </Stack>
           </div>
         </Col>

@@ -18,7 +18,7 @@ function Navigacio()
             </Nav>
             <Nav className="ms-auto">
                 <Nav.Link href="https://www.facebook.com/koszeg.doravendeghaz/" target="_blank" rel="noopener noreferrer">
-                    <FaFacebook />
+                    <FaFacebook size={20}/>
                 </Nav.Link>
             </Nav>
             </Navbar.Collapse>
