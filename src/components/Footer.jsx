@@ -4,14 +4,14 @@ function Footer()
 {
     return(
         <>
-        <footer className="py-3 bg-success">
+        <footer className="py-3 bg-success" style={{color: "white"}}>
             <Container className="text-center">
                 <Row>
                     <Col xs={12} lg={6} className="my-2">
-                        <Image src="images/tamogatas.jpg" fluid/>
+                        <Image src="images/tamogatas.jpg" alt="Támogatás kép" loading="lazy" fluid/>
                     </Col>
                     <Col xs={12} lg={6} className="my-2">
-                        <Image src="images/otpszep1-1.jpg" fluid/>
+                        <Image src="images/otpszep1-1.jpg" alt="OTP Szép Kártya kép" loading="lazy" fluid/>
                     </Col>
                 </Row>
                 <Row>

@@ -62,7 +62,7 @@ function Galeria()
                 <Row>
                     <Col className="text-center">
                         {images && images.map((src, idx) => (
-                            <Image key={idx} src={src} alt={`Kép ${idx}`} onClick={() => handleShow(idx)} className="gallery-image" rounded/>                            
+                            <Image key={idx} src={src} alt={`Kép ${idx}`} loading="lazy" onClick={() => handleShow(idx)} className="gallery-image" rounded/>                            
                         ))}
                     </Col>
                 </Row>

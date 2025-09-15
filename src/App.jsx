@@ -41,7 +41,7 @@ function App() {
             Várjuk sok szeretettel a Dóra Vendégházban Kőszegen!</p>
         </Col>
         <Col xs={12} lg={6} className="d-flex align-items-center justify-content-center">
-          <Image src="/images/3096355.jpg" fluid rounded/>
+          <Image src="/images/3096355.jpg" alt="Kép a vendégházról" loading="lazy" fluid rounded/>
         </Col>
       </Row>
       <Row className="mt-5">

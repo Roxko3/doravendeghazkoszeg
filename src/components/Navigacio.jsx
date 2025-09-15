@@ -6,7 +6,7 @@ function Navigacio()
 {
     return(
         <>
-        <Navbar expand="lg" className="bg-success" sticky="top">
+        <Navbar expand="lg" className="bg-success" sticky="top" data-bs-theme="dark">
         <Container>       
             <Navbar.Brand as={NavLink} to="/">Dóra Vendégház Kőszeg</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
