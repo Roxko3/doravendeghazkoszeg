@@ -35,7 +35,7 @@ function Szolgaltatas()
                     <SzolgaltatasCard icon={IoCardOutline} text="OTP SZÉP kártyával is fizethetsz"/>
                     <SzolgaltatasCard icon={BsArrowsAngleExpand} text="50 m2"/>
                     <SzolgaltatasCard icon={LuBugOff} text="Szúnyogháló"/>
-                    <SzolgaltatasCard icon={MdBalcony} text="Erkély/terasz"/>
+                    
                     <SzolgaltatasCard icon={TbFridge} text="Hűtőszekrény"/>
                     <SzolgaltatasCard icon={MdOutlineMicrowave} text="Mikrohullámú sütő"/>
                     <SzolgaltatasCard icon={MdOutlineIron} text="Vasaló"/>

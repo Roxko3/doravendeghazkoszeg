@@ -21,5 +21,9 @@ body {
 }
 
 .git-link {
-    color: white;
+    color: black;
+}
+
+.theme-color{
+    background-color: #e3e85a;
 }

@@ -4,7 +4,7 @@ function Footer()
 {
     return(
         <>
-        <footer className="py-3 bg-success" style={{color: "white"}}>
+        <footer className="py-3 theme-color">
             <Container className="text-center">
                 <Row>
                     <Col xs={12} lg={6} className="my-2">
