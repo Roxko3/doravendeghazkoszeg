@@ -9,7 +9,7 @@ function NotFound()
                 <Col>
                     <h1>404</h1>
                     <p>Az oldal nem található</p>
-                    <Button variant="success" as={NavLink} to="/">Főoldal</Button>
+                    <Button variant="warning" as={NavLink} to="/">Főoldal</Button>
                 </Col>
             </Row>
         </Container>
