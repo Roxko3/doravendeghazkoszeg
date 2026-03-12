@@ -7,7 +7,7 @@ function CustomCarousel({ images })
     <Carousel>
         {images && images.map((src, idx) => (
             <Carousel.Item key={idx}>
-                <Image src={src} alt={`Kép ${idx}`} loading="lazy" className="w-100 carousel-image"/>
+                <Image src={src} alt={`Kép ${idx}`} className="w-100 carousel-image"/>
             </Carousel.Item>
         ))}
     </Carousel>

@@ -8,10 +8,10 @@ function Footer()
             <Container className="text-center">
                 <Row>
                     <Col xs={12} lg={6} className="my-2">
-                        <Image src="images/tamogatas.jpg" alt="Támogatás kép" loading="lazy" fluid/>
+                        <Image src="images/tamogatas.jpg" alt="Támogatás kép" fluid/>
                     </Col>
                     <Col xs={12} lg={6} className="my-2">
-                        <Image src="images/otpszep1-1.jpg" alt="OTP Szép Kártya kép" loading="lazy" fluid/>
+                        <Image src="images/otpszep1-1.jpg" alt="OTP Szép Kártya kép" fluid/>
                     </Col>
                 </Row>
                 <Row>
