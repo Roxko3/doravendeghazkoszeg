@@ -27,3 +27,10 @@ body {
 .theme-color{
     background-color: #e3e85a;
 }
+
+.placeholder{
+    width: 25vh;
+    height: 25vh;
+    margin: 10px;
+    cursor: default;
+}

@@ -1,4 +1,4 @@
-import { Button, CloseButton, Col, Container, Image, Modal, Row, Stack } from "react-bootstrap"
+import { Button, CloseButton, Col, Container, Image, Modal, Placeholder, Row, Stack } from "react-bootstrap"
 import CustomCarousel from "../components/CustomCarousel"
 import { useEffect, useState } from "react"
 import { BiSolidLeftArrow, BiSolidRightArrow } from "react-icons/bi";
@@ -7,6 +7,11 @@ function Galeria()
 {
     const [show, setShow] = useState(false)
     const [index, setIndex] = useState();
+    const [loaded, setLoaded] = useState({})
+
+    const handleLoad = (idx) => {
+        setLoaded(prev => ({ ...prev, [idx]: true}))
+    }
 
     const handleClose = () => {
         setShow(false)   
@@ -62,7 +67,10 @@ function Galeria()
                 <Row>
                     <Col className="text-center">
                         {images && images.map((src, idx) => (
-                            <Image key={idx} src={src} alt={`Kép ${idx}`} onClick={() => handleShow(idx)} className="gallery-image" rounded/>                            
+                            <>
+                            {!loaded[idx] && (<Placeholder animation="glow"><Placeholder className="placeholder rounded"/></Placeholder>)}
+                            <Image key={idx} src={src} alt={`Kép ${idx}`} onLoad={() => handleLoad(idx)} onClick={() => handleShow(idx)} className="gallery-image" rounded style={{ display: loaded[idx] ? "inline-block" : "none" }}/>
+                            </>
                         ))}
                     </Col>
                 </Row>
