@@ -10,8 +10,8 @@ import Kapcsolat from './pages/Kapcsolat.jsx'
 import Footer from './components/Footer.jsx'
 import Szolgaltatas from './pages/Szolgaltatas.jsx'
 import NotFound from './pages/NotFound.jsx'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from '@vercel/speed-insights/react' 
+import { Analytics } from '@vercel/analytics/react' 
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
