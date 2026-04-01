@@ -17,8 +17,6 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <StrictMode>
       <div style={{minHeight: "100vh", display: "flex", flexDirection: "column"}}>
-      <SpeedInsights/>
-      <Analytics/>
       <Navigacio />
       <main style={{flex: 1}}>
       <Routes>
@@ -30,6 +28,8 @@ createRoot(document.getElementById('root')).render(
       </Routes>
       </main>
       <Footer />
+      <SpeedInsights/>
+      <Analytics/>
       </div>
     </StrictMode>
   </BrowserRouter>,

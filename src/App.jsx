@@ -4,10 +4,7 @@ import { useEffect } from "react"
 import ErtekelesCard from "./components/ErtekelesCard"
 import { FaStar } from "react-icons/fa"
 
-
 function App() {
-
-
   const imageModules = import.meta.glob("./assets/main_carousel/*", {eager: true, import: "default"})
   const images = Object.values(imageModules)
 
