@@ -17,7 +17,7 @@ function Footer()
                 <Row>
                     <Col>
                         <hr />
-                        <span>NTAK regisztrációs szám: MA19008454 | © Copyright {new Date().getFullYear()} | Készítette: Gyarmati Levente - <a className="git-link" href="mailto:gyarmatilevi@gmail.com">gyarmatilevi@gmail.com</a></span>
+                        <span>NTAK regisztrációs szám: MA19008454 | © Copyright {new Date().getFullYear()} | Készítette: Gyarmati Levente - <a className="git-link" href="mailto:gyarmatilevi@protonmail.com">gyarmatilevi@protonmail.com</a></span>
                     </Col>
                 </Row>
             </Container>
