@@ -10,11 +10,15 @@ import Kapcsolat from './pages/Kapcsolat.jsx'
 import Footer from './components/Footer.jsx'
 import Szolgaltatas from './pages/Szolgaltatas.jsx'
 import NotFound from './pages/NotFound.jsx'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <StrictMode>
       <div style={{minHeight: "100vh", display: "flex", flexDirection: "column"}}>
+      <SpeedInsights/>
+      <Analytics/>
       <Navigacio />
       <main style={{flex: 1}}>
       <Routes>
