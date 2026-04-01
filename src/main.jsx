@@ -16,6 +16,8 @@ import { Analytics } from '@vercel/analytics/react'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <StrictMode>
+      <SpeedInsights/>
+      <Analytics/>
       <div style={{minHeight: "100vh", display: "flex", flexDirection: "column"}}>
       <Navigacio />
       <main style={{flex: 1}}>
@@ -28,8 +30,6 @@ createRoot(document.getElementById('root')).render(
       </Routes>
       </main>
       <Footer />
-      <SpeedInsights/>
-      <Analytics/>
       </div>
     </StrictMode>
   </BrowserRouter>,
